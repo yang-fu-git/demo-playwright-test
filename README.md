@@ -76,3 +76,12 @@ The project uses [GitHub Actions](https://docs.github.com/en/actions) and tests 
 ## Contributing
 
 We have a [Kanban board](https://github.com/stefanteixeira/demo-playwright-test/projects/1) with a backlog of tasks to work on. If you are interested in contributing to the project, please reach out to @stefanteixeira to become a collaborator and get a task assigned to you.
+
+====================================
+30.May.2024 
+Reimplement 
+| Test | Work  |Description |
+| ------ | ------ | ------ |
+|api|:right| 	Runs the tests sequentially|
+|e2e|:right| 	Runs the tests sequentially. On test failure, all subsequent tests are skipped|
+|visual|:right| 	Runs the tests parallelly, this is ideal when tests in the scenario are independent of one another|
