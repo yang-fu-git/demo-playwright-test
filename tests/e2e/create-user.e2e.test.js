@@ -19,7 +19,7 @@ test.describe.parallel('Create user', () => {
     await createUser(page)
 
     await page.waitForNavigation()
-    await expect(page).toHaveURL('/admin/hom')
+    await expect(page).toHaveURL('/admin/home')
   })
 
   // eslint-disable-next-line playwright/no-skipped-test
