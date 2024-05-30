@@ -77,15 +77,6 @@ The project uses [GitHub Actions](https://docs.github.com/en/actions) and tests 
 
 We have a [Kanban board](https://github.com/stefanteixeira/demo-playwright-test/projects/1) with a backlog of tasks to work on. If you are interested in contributing to the project, please reach out to @stefanteixeira to become a collaborator and get a task assigned to you.
 
-====================================
-30.May.2024 
-Reimplement 
-| Test | Work  |Description |
-| ------ | ------ | ------ |
-|api|:right| 	Runs the tests sequentially|
-|e2e|:right| 	Runs the tests sequentially. On test failure, all subsequent tests are skipped|
-|visual|:right| 	Runs the tests parallelly, this is ideal when tests in the scenario are independent of one another|
-
 [![Badge ServeRest](https://img.shields.io/badge/API-ServeRest-green)](https://github.com/ServeRest/ServeRest/)
 
 # demo-playwright-test
@@ -170,6 +161,6 @@ We have a [Kanban board](https://github.com/stefanteixeira/demo-playwright-test/
 Reimplement 
 | Test | Work  |Description |
 | ------ | ------ | ------ |
-|api|:right| 	Runs the tests sequentially|
-|e2e|:right| 	Runs the tests sequentially. On test failure, all subsequent tests are skipped|
-|visual|:right| 	Runs the tests parallelly, this is ideal when tests in the scenario are independent of one another|
+|api|:white_check_mark:| 	Runs the tests|
+|e2e|:white_check_mark:| 	Runs the tests with error|
+|visual|| 	skip these test|
